@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="register.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Concert+One&family=Farro:wght@300;400;500;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/addCart.css">
+    <title>Add Cart </title>
+</head>
+<body class="mm">
+   
+<!--create Header  -->
+<header > 
+         <!-- create Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+              <a class="navbar-brand" href="index.html" style="font-size: 30px; color: rgb(109, 127, 208); margin-left: 12px;">Shopping</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" class="ul">
+               <li class="nav-item">
+                 <a class="nav-link" aria-current="page" href="index.html">Home</a>
+               </li>
+               
+              <!-- <li class="nav-item">
+                 <a class="nav-link" href="#" >Products </a>
+              </li> -->
+             </ul>
+            <form class="d-flex">
+              <a class="btn btn-outline-primary" style="margin-right: 50px;" type="submit" href="login.html">Login in </a>
+              <a class="btn btn-outline-primary" style="margin-right: 50px;" type="submit" href="register.html">Login Out </a>
+            </form>
+             <!--Show username  -->
+              <div id="user-info" >
+                <a id="user"  href="#" class="text-light">Mohamed  </a>
+              </div>
+           </div>
+      </div>
+    </nav>
+</header>
+
+
+<!-- add register -->
+<section  class="form-content" >
+    <div class="w-50% container bg-info p-2 mt-2">
+        <form class="form-group m-3  pt-2"  novalidate></form>
+                <h2> Login User </h2> 
+                <input type="text" placeholder="UserName" class="form-control mb-2"  id="UserName"/>
+                <input type="email" placeholder="Enter email" class="form-control mb-2" id="email" />
+                <input type="password" placeholder="Enter password" class="form-control mb-2" id="password" />
+                <input type="submit"  class="btn btn-outline-primary w-100" id="send_btn"/>
+                not have acount <a href="login.html">Login </a>
+            </form>
+    </div>
+    
+</section>
+
+
+
+
+<!-- Add footer -->
+<footer class="footer  m-3" >
+  <div class="container">
+       <div class="row">
+          <div class="footer-col">
+              <h4> Company</h4>
+              <ul>
+                 
+                  <li> <a href="#">About us </a> </li>
+                  <li> <a href="#"> Our Service </a> </li>
+                  <li> <a href="#"> Privacy Policy</a> </li>
+                 
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4> Get Help</h4>
+              <ul>
+                 
+                  <li> <a href="#"> Shopping </a> </li>
+                  <li> <a href="#">payment Options</a> </li>
+                  <li> <a href="#"> order status </a> </li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4> OnLine Shop </h4>
+              <ul>
+                 
+                  <li> <a href="#"> Watch </a> </li>
+                  <li> <a href="#">bag</a> </li>
+                  <li> <a href="#">shoes</a> </li>
+                  <li> <a href="#">dress</a> </li>
+                  
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4> Follow us </h4>
+              <div class="socal-links ">
+                  <!-- Add icon-->
+                 
+                   <a href="https://www.facebook.com/profile.php?id=61554112096960&mibextid=JRoKGi"> <i class=" fab fa-facebook-f" ></i> </a> 
+                   <a href="https://x.com/MAlsaifie94800?t=eKjOlZ0czAaoMSpKXNj07w&s=09"> <i class=" fab fa-twitter" ></i> </a> 
+                   <a href="https://www.instagram.com/mohamed_alsaif_907?igsh=cXdiZ3J3NTJvbjE="> <i class=" fab fa-instagram" ></i> </a> 
+                   <a href="https://www.linkedin.com/in/mohamed-ragab-3b6373291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i class=" fab fa-linkedin-in" ></i> </a> 
+              </div>
+          </div>
+
+       </div>
+  </div>
+</footer>
+
+
+ <script src="js/register.js"></script>
+    <script src="js/addCart.js"> </script>
+    <script src="js/jquery-3.7.1.js" ></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
